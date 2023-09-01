@@ -1,0 +1,171 @@
+html, body{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 10%;
+}
+
+#menu {
+    float: right;
+    margin-right: 10%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+
+}
+li:hover {
+    background-color: rgb(52, 152, 233);
+}
+.icone:hover{
+    background-color:rgb(52, 152, 233) ;
+    
+}
+#imagem_fundo{
+    background-image: url("A\ scenic\ view\ of\ the\ ocean.jfif");
+    background-size: cover;
+    height:95%;
+    background-repeat:no-repeat;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    padding-top: 25%;
+    font-size: 40px;
+    text-shadow: 2px 2px  black;
+    line-height: 0.6;
+    font-family: garamond;
+}
+#Subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 4px solid white;
+    text-shadow: 2px 2px  black;
+}
+#acao{
+    color: white;
+    border: 1px white solid;
+    padding: 10px 10px 10px 10px;
+}
+
+.icone{
+    width: 60px;
+}
+#ecopontos{
+    background-color: white;
+    padding: 20px;
+}
+.destaque{
+    background-color: white;
+
+}
+section{
+    padding: 20px;
+    float: left;
+}
+
+.ImEco{
+    display:flex;
+    width: 300px;
+    margin:0 auto;
+    padding: 2;
+
+}
+.TextoDiv {
+    text-align: center;
+}
+
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    
+}
+.dois {
+    width: 40%;
+    
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+#sobre{
+    width: 60%;
+    
+    text-align:center;
+    float: right;
+    padding: 5 20%;
+    position: relative;
+}
+.justificado{
+    text-align: justify;
+}
+#projeto{
+    text-align: justify;
+}
+
+#selecao{
+    text-align:center
+}
+.centralizado{
+    text-align:center;
+}
+#Projeto h3 {
+    text-align:center;
+}
+
+footer {
+    background-color: rgb(52, 152, 233);
+    float:right;
+    width: 100%;
+    height: 35%;
+    color: white;
+    padding: auto;
+    text-align: center;
+
+}
+#final {
+    display: block;
+    margin: 0 auto;
+    max-width: 200;
+    margin-top: 20;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    #coluna, #dois, #tres, #quatro {
+        display: block;
+        width: 90%;
+        padding: 10px auto;
+        float: none;
+    }
+    #logo {
+        width: 10px;
+        transform: translateX(-50%);
+
+    }
+}
